@@ -1,6 +1,12 @@
 # 📉 Customer Churn Prediction
 This project focuses on identifying drivers of customer churn and building predictive models to help a business proactively retain at-risk customers.
 
+# 🧰 Tools & Technologies
+* Python, Pandas, NumPy
+* Scikit-learn for ML modeling
+* Matplotlib, Seaborn for visualizations
+* Jupyter Notebook for experimentation and analysis
+
 # 📁 Dataset Overview
 The dataset contains customer information including:
 * Credit Score, Age, Tenure, Balance
@@ -12,7 +18,6 @@ The dataset contains customer information including:
 # 🎯 Objectives
 * Understand key factors contributing to customer churn
 * Build and evaluate classification models to predict churn
-* Use cross-validation and ROC-AUC metrics for model selection
 * Provide actionable business insights based on model results
 
 # 🧪 Methods & Tools
@@ -33,11 +38,14 @@ The dataset contains customer information including:
 * Best hyperparameters selected using AUC score
 
 # 📊 Evaluation
-* Used ROC-AUC to evaluate probability-based predictions
-* Generated ROC curves for visual performance comparison
-* Calculated Confusion Matrix, Precision, Recall, and F1
+* Used both ROC-AUC and confusion matrix-based metrics to evaluate model performance on the test set.
 
-✅ Results Summary
-* Random Forest slightly outperformed logistic regression on AUC
-* Logistic Regression had a higher recall rate - best model
-* Key churn predictors: Credit Score, Age, Balance, Geography
+# 🏆 Best Model: Logistic Regression
+Although the Random Forest achieved a slightly higher AUC, the Logistic Regression model was selected as the final model due to:
+
+* Better precision–recall balance
+* Simplicity and interpretability, which are key for explaining churn behavior to stakeholders
+
+# 📌 Next Steps
+* To further boost predictive performance, build XGBoost, SMOTE models as they tend to handle class imbalance effectively
+* Test with newer data to ensure generalization
