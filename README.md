@@ -42,13 +42,13 @@ The dataset contains customer information including:
 
 # 💡 Business Insights and Proposed Solutions/Impact:
 1. Countries with lower number of customers, such as Germany, have a high churn rate.
-   **Solution**: Perhaps the bank is not allocating required resources to the territories with the least number of customers?
+* **Solution**: Perhaps the bank is not allocating required resources to the territories with the least number of customers?
 2. Females churn more often than the males.
-   **Solution**: Implement programs targeting female customer retention. For example, assign bonuses when a female opens an account.
+* **Solution**: Implement programs targeting female customer retention. For example, assign bonuses when a female opens an account.
 3. Older customers churn more often than the younger customers.
-   **Solution**: Revise target market, or design strategies for older customer retention.
+* **Solution**: Revise target market, or design strategies for older customer retention.
 4. Customers with a higher account balance churn more.
-   **Impact**: Negatively impacts the capital available for lending.
+* **Impact**: Negatively impacts the capital available for lending.
 5. Customers with the shortest and longest tenure with the bank churn the most.
 6. Customers with a credit card churn the most.
 
