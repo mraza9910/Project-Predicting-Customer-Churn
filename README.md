@@ -41,16 +41,16 @@ The dataset contains customer information including:
 * Used both ROC-AUC and confusion matrix-based metrics to evaluate model performance on the test set.
 
 # 💡 Business Insights and Proposed Solutions/Impact:
-* Countries with lower number of customers, such as Germany, have a high churn rate.
+1. Countries with lower number of customers, such as Germany, have a high churn rate.
    **Solution**: Perhaps the bank is not allocating required resources to the territories with the least number of customers?
-* Females churn more often than the males.
+2. Females churn more often than the males.
    **Solution**: Implement programs targeting female customer retention. For example, assign bonuses when a female opens an account.
-* Older customers churn more often than the younger customers.
+3. Older customers churn more often than the younger customers.
    **Solution**: Revise target market, or design strategies for older customer retention.
-* Customers with a higher account balance churn more.
+4. Customers with a higher account balance churn more.
    **Impact**: Negatively impacts the capital available for lending.
-* Customers with the shortest and longest tensure with the bank churn the most.
-* Customers with a credit card churn the most.
+5. Customers with the shortest and longest tenure with the bank churn the most.
+6. Customers with a credit card churn the most.
 
 # 🏆 Best Model: Logistic Regression
 Although the Random Forest achieved a slightly higher AUC, the Logistic Regression model was selected as the final model due to:
