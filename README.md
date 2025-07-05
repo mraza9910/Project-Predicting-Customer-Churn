@@ -17,7 +17,7 @@ The dataset contains customer information including:
 
 # 🎯 Objectives
 * Understand key factors contributing to customer churn
-* Build and evaluate classification models to predict churn
+* Build and evaluate classification models to predict likelihood of a customer churning
 * Provide actionable business insights based on model results
 
 # 🧪 Methods & Tools
