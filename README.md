@@ -40,7 +40,7 @@ The dataset contains customer information including:
 # 📊 Evaluation
 * Used both ROC-AUC and confusion matrix-based metrics to evaluate model performance on the test set.
 
-# Business Insights and Proposed Solutions/Impact:
+# 💡 Business Insights and Proposed Solutions/Impact:
 * Countries with lower number of customers, such as Germany, have a high churn rate. **Solution**: Perhaps the bank is not allocating required resources to the territories with the least number of customers?
 * Females churn more often than the males. **Solution**: Implement programs targeting female customer retention. For example, assign bonuses when a female opens an account.
 * Older customers churn more often than the younger customers. **Solution**: Revise target market, or design strategies for older customer retention.
